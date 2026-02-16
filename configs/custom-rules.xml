@@ -1,1 +1,16 @@
+<group name="windows,sysmon,security_custom,">
 
+  <rule id="100001" level="10">
+    <if_matched_sid>5712</if_matched_sid>
+    <same_source_ip />
+    <description>Possible Brute Force Attack: Multiple failed logins from same source.</description>
+    <group>authentication_failed,</group>
+  </rule>
+
+  <rule id="100002" level="12">
+    <if_group>sysmon_event1</if_group>
+    <field name="win.eventdata.commandLine">net user admin /add</field>
+    <description>Critical: Unauthorized account creation attempt detected.</description>
+  </rule>
+
+</group>
