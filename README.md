@@ -39,4 +39,4 @@ The repository is organized as follows to ensure easy deployment and configurati
 ![Wazuh Dashboard](docs/dashboard-screenshot.png)
 *Example of the Wazuh dashboard detecting real-time alerts.*
 
-*Created by Mr.Aphisit_Siphat - Aiming for Excellence in Cloud Security*
+*Created by IAM66 - Aiming for Excellence in Cloud Security*
