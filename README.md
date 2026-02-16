@@ -19,6 +19,7 @@ The repository is organized as follows to ensure easy deployment and configurati
 │   └── fix-firewall.ps1      # PowerShell script to automate agent-to-manager connectivity
 ├── docker-compose.yml        # Orchestration file to deploy the Wazuh SIEM stack
 └── README.md                 # Project documentation and overview
+```
 
 ## 🚀 Key Features Implemented
 - **Endpoint Security Monitoring:** Integrated Wazuh agents with Windows endpoints.
