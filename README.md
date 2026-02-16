@@ -10,6 +10,8 @@ This project demonstrates the deployment and configuration of a **Wazuh SIEM** e
 
 ## 📁 Project Structure
 The repository is organized as follows to ensure easy deployment and configuration:
+
+```text
 ├── configs/
 │   ├── custom-rules.xml      # Custom XML detection rules for the Wazuh Manager
 │   └── ossec.conf            # Sample agent configuration with Sysmon integration
